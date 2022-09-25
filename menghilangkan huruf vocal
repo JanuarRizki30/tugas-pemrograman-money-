@@ -1,0 +1,8 @@
+z = input().lower()
+c = 'a','i','u','e','o'
+
+for i in z:
+    if i in c:
+        z = z.replace(i,'')
+        
+print(z)
